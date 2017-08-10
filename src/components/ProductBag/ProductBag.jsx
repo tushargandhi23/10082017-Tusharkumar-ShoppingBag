@@ -17,6 +17,8 @@ export class ProductBag extends React.Component{
     render(){
         return(
             <div>
+                <a  target='_blank' href="https://github.com/tushargandhi23/10082017-Tusharkumar-ShoppingBag">
+                https://github.com/tushargandhi23/10082017-Tusharkumar-ShoppingBag</a>
                <ListProduct productListProp={this.state.products} /> 
                <ListProductBag productListInBagProp = {this.state.productsInBag} /> 
             </div>
